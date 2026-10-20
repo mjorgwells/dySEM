@@ -216,21 +216,21 @@ together. Understanding these specific features and the labels we use in
 <em>dySEM</em> to refer to them will make it much easier for you when
 you go to use a scraping function (e.g.,
 <code><a href="../reference/scrapeVarCross.html">scrapeVarCross()</a></code>).</p>
-<p>Let’s imagine a hypothetical dataset in which managers and employee
-dyads both reported on how positively they felt about their respective
+<p>Let’s imagine a hypothetical dataset in which both employees and managers 
+reported how positively they felt about their respective
 jobs, using a three-item questionnaire:</p>
 <p><br></p>
 <p><img src="https://raw.githubusercontent.com/jsakaluk/dySEM/master/img/vig_anatomy/p8.png" style="width:70.0%"></p>
 <p><br></p>
-<p>Breaking these names down, we are left with the following component
-features: The variable <strong><em>stem</em></strong>: characters that
-(ambiguous, or [ideally] intuitive) are consistent across all variables,
-for both partners that we are interested in (e.g., pos) The
+<p>Breaking these names down, we are left with the following components: 
+The variable <strong><em>stem</em></strong>: characters that
+are consistent across all variables,
+for both partners that we are interested in (e.g., pos); the
 <strong><em>item number</em></strong>: a number that only appears twice
-(once per partner) that indicates which specific variable within those
-sharing its stem is being referenced (e.g., 2) And the
+(once per partner) indicating which specific variable within those
+sharing its stem is being referenced (e.g., 2); and the
 <strong><em>partner distinguisher</em></strong>: the character that
-indicates which variables correspond to which partner (e.g., m or e)
+indicates which variables correspond to which partner (e.g., m or e).
 <strong><em>Delimiters</em></strong> such as “.” or “_” can also be used
 to separate the 1st feature from the 2nd, and the 2nd from the 3rd.
 Sometimes a name might include one delimiter; other times (as in this
@@ -240,7 +240,7 @@ case), it might include two.</p>
 <p><br></p>
 <p>When dyadic dataset variable name features are arranged in this order
 (<em>S</em>tem, <em>I</em>tem number, <em>P</em>artner distinguisher),
-we refer to them as <strong>“sip”-ordered</strong> when using dySEM. We
+we refer to them as <strong>“sip”-ordered</strong> in dySEM. We
 do this because variable naming conventions are somewhat arbitrary and
 varied; people can and do arrange dyadic variable names in other orders.
 For example, another common ordering is <em>S</em>tem, <em>P</em>artner
